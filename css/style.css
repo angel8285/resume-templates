@@ -1,0 +1,100 @@
+img{
+  border-radius: 50%;
+  float:right;
+  margin-top:-60px
+}
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Header Styles */
+header {
+  background-color: #007BFF;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+header .profile-image {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border-radius:50px
+}
+
+header h1 {
+  margin: 10px 0;
+  font-size: 2.5em;
+}
+
+header p {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+/* Main Content Styles */
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+h2 {
+  color: #007BFF;
+  font-size: 1.8em;
+}
+
+hr {
+  border: 0;
+  height: 2px;
+  background-color: #007BFF;
+  margin: 10px 0;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+p strong {
+  color: #007BFF;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 15px;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #007BFF;
+  color: white;
+}
+
+/* Links */
+a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
